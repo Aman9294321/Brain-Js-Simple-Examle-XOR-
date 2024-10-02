@@ -1,5 +1,5 @@
 const brain= require("brain.js");
-const net = new brain.NeuralNetworks({hiddenLayer:[3]});
+const net = new brain.NeuralNetwork({hiddenLayer:[3]});
 
 const trainingData = [
     {input:[0,0],output:[0]},
